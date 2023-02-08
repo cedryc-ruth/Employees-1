@@ -15,7 +15,7 @@
         <tbody class="body-partner">
         {% for partner in partners %}
             <tr>
-                   <td><img src="{{ asset("/images" ~ partner.logo) }}" alt="{{ partner.title }} width="200" height="200"></td> 
+                   <td><img src="{{ asset("/images/" ~ partner.logo) }}" alt="{{ partner.title }}" height="200"></td> 
             </tr>
             <tr>
                 <td>{{ partner.title }}</td>
